@@ -1,10 +1,10 @@
 import "./App.css";
-import Form from "./components/Form";
-/* Questo esercizio riguarda sia la consegna del "controlled forms - 2" che quella "controlled forms - 5" */
+import { UncontrolledForm } from "./components/UncontrolledForm";
+
 const App = () => {
   return (
     <div>
-      <Form />
+      <UncontrolledForm />
     </div>
   );
 };
